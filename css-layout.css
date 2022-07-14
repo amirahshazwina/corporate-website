@@ -1,0 +1,157 @@
+/*CSS Layout*/
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body
+{
+	font: 16px sans-serif;
+	background-color:white;
+}
+/*#d8c2d6 #e73089-backup*/
+
+h3
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+p
+{
+	font: 16px sans-serif;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+blockquote
+{
+	font: 16px sans-serif;
+}
+
+table, th, td
+{ 
+	padding: 5px;
+	border:2px solid black;
+	border-collapse: collapse;
+}
+tr:hover
+{
+	background-color: #c8aef2;
+}
+
+img
+{
+
+	border-radius: 5px;
+	border-spacing: 10px;
+}
+
+.container
+{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	font-size: 15px;
+}
+
+
+.header
+{
+	background: #9b0259;
+	padding: 10px;
+	text-align: center;
+}
+
+
+.nav
+{
+	background: #9b0259;
+	padding: 10px;
+	color: #fff;
+}
+
+
+.nav ul
+{
+	list-style: none;
+	padding: 0;
+}
+
+
+.nav ul li
+{	
+
+	width: 16%;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+}
+
+.nav ul li a:hover
+{
+	text-align: center;
+	padding: 8px 12px;
+	background: #e73089;
+
+	}
+
+
+.main
+{
+background: #d8c2d6;
+}
+
+.aside
+{
+	width: 20%;
+	float: left;
+	padding: 10px;
+	background:#d8c2d6 ;
+}
+
+
+.section
+{
+	width: 80%;
+	float: left;
+	padding: 10px;
+	background: #cae5fa;
+}
+
+.clear
+{
+	clear: both;
+}
+
+
+.footer
+{
+	background: #c8aef2;
+	padding: 10px;
+}
+
+.fixed
+{
+position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+a:link
+{
+	color: floralwhite;
+}
+
+
+a:visited
+{
+	color: #c8aef2;
+}
+
+a:active
+{
+	color: black;
+}
+
